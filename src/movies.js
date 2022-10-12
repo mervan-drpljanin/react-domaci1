@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
   {
     naziv: "Pulp fiction",
     zanr: "Crime",

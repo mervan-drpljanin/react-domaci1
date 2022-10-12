@@ -1,9 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MovieReact from "./components/MovieCard/MovieCard";
 
 function App() {
   return (
-    <div className="main-part">Domaći 1</div>
+    <div className="main-part">
+      Domaći 1
+      <div className="card">
+        <MovieReact></MovieReact>
+      </div>
+    </div>
     /*{ <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
